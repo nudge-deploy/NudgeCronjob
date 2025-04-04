@@ -15,6 +15,7 @@ from datetime import datetime, timezone, timedelta
 def run_pipeline():
     print("\nPipeline dijalankan pada", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     
+    
     # === Supabase connection ===
     load_dotenv()
     url: str = os.getenv("SUPABASE_URL")
