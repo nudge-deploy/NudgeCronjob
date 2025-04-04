@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  nudge_cronjob_image:
+    build: .
+    container_name: nudge_cronjob
+    image: johedotcom/nudge-cronjob-repository:latest
+    restart: always
